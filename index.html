@@ -1,32 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NovaCart PH</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaCart PH</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
-<body style="font-family:Arial;text-align:center;background:#f5f5f5;">
+<body>
 
+<header>
 <h1>🛒 NovaCart PH</h1>
-<p>Welcome to NovaCart PH!</p>
+<p>Your Online Store</p>
+</header>
 
-<h2>Featured Products</h2>
+<div class="container">
 
-<div style="background:white;padding:15px;margin:15px;border-radius:10px;">
-  <h3>Wireless Earbuds</h3>
-  <p>₱599</p>
-  <button>Add to Cart</button>
+<div class="product">
+<h3>🎧 Wireless Earbuds</h3>
+<p>₱599</p>
+<button onclick="addToCart('Wireless Earbuds')">Add to Cart</button>
 </div>
 
-<div style="background:white;padding:15px;margin:15px;border-radius:10px;">
-  <h3>Smart Watch</h3>
-  <p>₱1,299</p>
-  <button>Add to Cart</button>
+<div class="product">
+<h3>⌚ Smart Watch</h3>
+<p>₱1,299</p>
+<button onclick="addToCart('Smart Watch')">Add to Cart</button>
 </div>
 
-<footer style="margin-top:40px;">
-  © 2026 NovaCart PH
-</footer>
+<div class="product">
+<h3>🔊 Bluetooth Speaker</h3>
+<p>₱899</p>
+<button onclick="addToCart('Bluetooth Speaker')">Add to Cart</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
